@@ -1,0 +1,35 @@
+
+/* Color Palette */
+:root {
+    --primary-color: #4361ee;
+    --secondary-color: #FF9800;
+    --success-color: #4CAF50;
+    --warning-color: #FF9800;
+    --danger-color: #F44336;
+    --info-color: #7C4DFF;
+    --balance-color:#4745A4
+    
+    --text-color: #333;
+    --subtext-color: #666;
+    --muted-text-color: #999;
+    
+    --background-color: #f5f7f9;
+    --card-background: #ffffff;
+    --border-color: #f0f0f0;
+}
+
+/* Font Sizes */
+:root {
+    --font-small: 12px;
+    --font-regular: 14px;
+    --font-medium: 16px;
+    --font-large: 18px;
+    --font-xlarge: 24px;
+}
+
+/* Border Radius */
+:root {
+    --border-radius-small: 5px;
+    --border-radius-medium: 10px;
+    --border-radius-large: 15px;
+}

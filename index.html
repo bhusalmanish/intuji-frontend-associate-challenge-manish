@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>intuji frontend task</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -16,50 +16,47 @@
             <div class="logo"></div>
             <ul class="sidebar-menu">
                 <li class="menu-item active">
-                    <div class="menu-item-icon">□</div>
+                    <div class="menu-item-icon"> <img src="./assets//icons/dashboard.png" alt="Dashboard" /></div>
                     Dashboard
                 </li>
                 <li class="menu-item">
-                    <div class="menu-item-icon">□</div>
+                    <div class="menu-item-icon"> <img src="./assets//icons/Calendar.png" alt="claneder" /></div>
                     Schedule
                 </li>
                 <li class="menu-item">
-                    <div class="menu-item-icon">□</div>
+                    <div class="menu-item-icon"> <img src="./assets//icons/sms.png" alt="Message" /></div>
                     Message
                 </li>
                 <li class="menu-item">
-                    <div class="menu-item-icon">□</div>
+                    <div class="menu-item-icon"> <img src="./assets//icons/Chart.png" alt="Analytics" /></div>
                     Analytics
                 </li>
                 <li class="menu-item">
-                    <div class="menu-item-icon">□</div>
+                    <div class="menu-item-icon"> <img src="./assets//icons/profile-2user.png" alt="Team" /></div>
                     Team
                 </li>
             </ul>
 
             <div class="menu-divider"></div>
-
             <ul class="sidebar-menu">
                 <li class="menu-item">
-                    <div class="menu-item-icon">□</div>
+                    <div class="menu-item-icon"> <img src="./assets//icons/user.png" alt="Profile" /></div>
                     Profile
                 </li>
                 <li class="menu-item">
-                    <div class="menu-item-icon">□</div>
+                    <div class="menu-item-icon"> <img src="./assets//icons/setting.png" alt="Settings" /></div>
                     Settings
                 </li>
                 <li class="menu-item">
-                    <div class="menu-item-icon">□</div>
+                    <div class="menu-item-icon"> <img src="./assets//icons/info-circle.png" alt="Help" /></div>
                     Help
                 </li>
                 <li class="menu-item">
-                    <div class="menu-item-icon">□</div>
+                    <div class="menu-item-icon"> <img src="./assets//icons/login.png" alt="Logout" /></div>
                     Logout
                 </li>
             </ul>
         </div>
-
-
 
         <div class="main-content">
             <!-- Header -->
@@ -68,87 +65,155 @@
                     <div class="search-icon">○</div>
                     <input type="text" class="search-input" placeholder="Search here...">
                 </div>
-                
-                <div class="user-menu">
-                    <div class="notification-icon">○</div>
-                    <div class="message-icon">○</div>
-                    <div class="user-avatar">○</div>
+
+                <div class="user-menu stat-card ">
+                    <!-- <div class="">○</div> -->
+                    <div class=" notification-icon"> <img src="./assets//icons/notification-bing.png"
+                            alt="notification" />
+                    </div>
+                    <div class="menu-item-icon"> <img src="./assets//icons/message-text.png" alt="message" /></div>
+
+                    <div class="menu-item-icon"> <img src="./assets//icons/gallery.png" alt="user-avatar" /></div>
+
                     <span>Mirie Kiritani</span>
+
+                    <div class="menu-item-icon"> <img src="./assets//icons/arrow-down.png" alt="arrow-right" /></div>
                 </div>
             </div>
-            
-            <!-- Dashboard Content -->
-            <div class="section-header">
-                <h2 class="section-title">Overview</h2>
-            </div>
-            
-            <div class="stats-grid">
-                <!-- Balance Card -->
-                <div class="stat-card">
-                    <div class="card-content">
-                        <div class="stat-title">Your Balance</div>
-                        <div class="stat-value">$28,891.138</div>
-                        <div class="stat-trend trend-up">15% compared with last month</div>
-                    </div>
-                    <div class="arrow-icon">→</div>
-                </div>
-                
-                <!-- Saving Card -->
-                <div class="stat-card">
-                    <div class="card-content">
-                        <div class="stat-title">Saving</div>
-                        <div class="stat-value">$1,050.44</div>
-                        <div class="stat-trend trend-down">10% compared with last month</div>
-                    </div>
-                    <div class="arrow-icon">→</div>
-                </div>
-                
-                <!-- Expenses Card -->
-                <div class="stat-card">
-                    <div class="card-content">
-                        <div class="stat-title">Expenses</div>
-                        <div class="stat-value">$200.31</div>
-                        <div class="stat-trend">2% compared with last month</div>
-                    </div>
-                    <div class="arrow-icon">→</div>
-                </div>
-                
-                <!-- Incomes Card -->
-                <div class="stat-card">
-                    <div class="card-content">
-                        <div class="stat-title">Incomes</div>
-                        <div class="stat-value">$21,121.0</div>
-                        <div class="stat-trend trend-up">8% compared with last month</div>
-                    </div>
-                    <div class="arrow-icon">→</div>
-                </div>
-            </div>
-            
+
+
+
             <div class="dashboard-layout">
-                <!-- Analytics Section -->
-                <div class="analytics-section">
-                    <div class="analytics-header">
-                        <h3 class="section-title">Analytics</h3>
-                        <div class="analytics-controls">
-                            <div class="analytics-legend">
-                                <div class="legend-item">
-                                    <div class="legend-color color-blue"></div>
-                                    Label 1
+
+                <!-- Dashboard Content -->
+
+                <!-- middle content  -->
+                <div>
+                    <div class="section-header">
+                        <h2 class="section-title">Overview</h2>
+                    </div>
+
+                    <div class="stats-grid">
+                        <!-- Balance Card -->
+                        <div class="stat-card bg-blue ">
+                            <div class="card-content">
+                                <!-- top icon and name -->
+                                <div class="row">
+                                    <div class="menu-item-icon"> <img src="./assets//icons/balance.png" alt="balance" />
+                                    </div>
+                                    <div class="col">
+                                        <div class="">Balance</div>
+                                        <div class="">15% compared with last month</div>
+                                    </div>
                                 </div>
-                                <div class="legend-item">
-                                    <div class="legend-color color-yellow"></div>
-                                    Label 2
+                                <div class="div-with-line"> </div>
+
+                                <div class="row justify-between">
+                                    <div class="stat-value">$1,050.44</div>
+                                    <div class="stat-card-icon"> <img src="./assets//icons/arrow-right.png"
+                                            alt="balance" />
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="analytics-filter">
-                                Weekly ▼
                             </div>
                         </div>
+
+                        <!-- Saving Card -->
+                        <div class="stat-card">
+                            <div class="card-content">
+                                <div class="row">
+                                    <div class="menu-item-icon"> <img src="./assets//icons/saving.png" alt="saving" />
+                                    </div>
+                                    <div class="col">
+                                        <div class="">Saving</div>
+                                        <div class="">10% compared with last month</div>
+                                    </div>
+                                </div>
+                                <div class="div-with-line"> </div>
+                                <div class="row justify-between">
+                                    <div class="stat-value">$1,050.44</div>
+                                    <div class="stat-card-icon"> <img src="./assets//icons/arrow-right.png"
+                                            alt="balance" />
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Expenses Card -->
+                        <div class="stat-card">
+                            <div class="card-content">
+                                <div class="row">
+                                    <div class="menu-item-icon"> <img src="./assets//icons/expanses.png"
+                                            alt="expanses" />
+                                    </div>
+                                    <div class="col">
+                                        <div class="">Expanses</div>
+                                        <div class="stat-trenda">2% compared with last month</div>
+                                    </div>
+                                </div>
+                                <div class="div-with-line"> </div>
+
+                                <div class="row justify-between">
+                                    <div class="stat-value">$200.31</div>
+                                    <div class="stat-card-icon"> <img src="./assets//icons/arrow-right.png"
+                                            alt="balance" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Incomes Card -->
+                        <div class="stat-card">
+                            <div class="card-content">
+                                <div class="row">
+                                    <div class="menu-item-icon"> <img src="./assets//icons/income.png" alt="income" />
+                                    </div>
+                                    <div class="col">
+                                        <div class="">Income</div>
+                                        <div class="">8% compared with last month</div>
+                                    </div>
+                                </div>
+
+                                <div class="div-with-line"> </div>
+                                <div class="row justify-between">
+                                    <div class="stat-value">$21,121.0</div>
+                                    <div class="stat-card-icon"> <img src="./assets//icons/arrow-right.png"
+                                            alt="balance" />
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <!-- Analytics Section -->
+                        <div class="analytics-section">
+                            <div class="analytics-header">
+                                <h3 class="section-title">Analytics</h3>
+                                <div class="analytics-controls">
+                                    <div class="analytics-legend">
+                                        <div class="legend-item">
+                                            <div class="legend-color color-blue"></div>
+                                            Label 1
+                                        </div>
+                                        <div class="legend-item">
+                                            <div class="legend-color color-yellow"></div>
+                                            Label 2
+                                        </div>
+                                    </div>
+                                    <div class="analytics-filter">
+                                        Weekly ▼
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="chart"></div>
+                        </div>
+
                     </div>
-                    
-                    <div class="chart"></div>
                 </div>
-                
+
+
                 <!-- Right Panel -->
                 <div class="right-panel">
                     <!-- Saving Plans -->
@@ -157,7 +222,7 @@
                             <h3 class="section-title">Saving Plan</h3>
                             <a href="#" class="see-all">See All</a>
                         </div>
-                        
+
                         <!-- Bali Plan -->
                         <div class="plan-item">
                             <div class="plan-header">
@@ -173,7 +238,7 @@
                             </div>
                             <div class="percentage percentage-blue">48%</div>
                         </div>
-                        
+
                         <!-- Gadget Plan -->
                         <div class="plan-item">
                             <div class="plan-header">
@@ -189,7 +254,7 @@
                             </div>
                             <div class="percentage percentage-orange">79%</div>
                         </div>
-                        
+
                         <!-- Charity Plan -->
                         <div class="plan-item">
                             <div class="plan-header">
@@ -206,14 +271,14 @@
                             <div class="percentage percentage-green">32%</div>
                         </div>
                     </div>
-                    
+
                     <!-- Recent Transactions -->
                     <div class="transactions">
                         <div class="section-header">
                             <h3 class="section-title">Recent Transaction</h3>
                             <a href="#" class="see-all">See All</a>
                         </div>
-                        
+
                         <!-- Figma -->
                         <div class="transaction-item">
                             <div class="transaction-info">
@@ -228,7 +293,7 @@
                                 <div class="transaction-status">Completed</div>
                             </div>
                         </div>
-                        
+
                         <!-- YouTube -->
                         <div class="transaction-item">
                             <div class="transaction-info">
@@ -243,7 +308,7 @@
                                 <div class="transaction-status">Completed</div>
                             </div>
                         </div>
-                        
+
                         <!-- Spotify -->
                         <div class="transaction-item">
                             <div class="transaction-info">
@@ -258,7 +323,7 @@
                                 <div class="transaction-status">Completed</div>
                             </div>
                         </div>
-                        
+
                         <!-- Freepik -->
                         <div class="transaction-item">
                             <div class="transaction-info">
@@ -275,11 +340,11 @@
                         </div>
                     </div>
                 </div>
+
             </div>
-        </div>
 
 
-        <div class="container">
+            <div class="container">
 
 
 
