@@ -76,7 +76,7 @@
 
                         <div class="menu-item-icon"> <img src="./assets//icons/gallery.png" alt="user-avatar" /></div>
 
-                        <span>Mirie Kiritani</span>
+                        <span>Manish Bhusal</span>
 
                         <div class="menu-item-icon"> <img src="./assets//icons/arrow-down.png" alt="arrow-right" />
                         </div>
@@ -193,31 +193,6 @@
                     </div>
 
                     <!-- Analytics Section -->
-                    <!--                   
-                    <div class="analytics-sectiona">
-                        <div class="analytics-header">
-                            <h3 class="section-title">Analytics</h3>
-                            <div class="analytics-controls">
-                                <div class="analytics-legend">
-                                    <div class="legend-item">
-                                        <div class="legend-color color-blue"></div>
-                                        Label 1
-                                    </div>
-                                    <div class="legend-item">
-                                        <div class="legend-color color-yellow"></div>
-                                        Label 2
-                                    </div>
-                                </div>
-                                <div class="analytics-filter">
-                                    Weekly ▼
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="chart"></div>
-                    </div> -->
-
-
                     <div class="chart-container">
                         <div class="chart-header">
                             <div class="chart-title">Analytics</div>
@@ -261,19 +236,15 @@
                                                 <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.05" />
                                             </linearGradient>
                                         </defs>
-
                                         <!-- Purple Area -->
                                         <path class="area-purple"
                                             d="M0,40 C10,30 15,45 25,30 C35,15 40,25 50,40 C60,55 65,25 75,35 C85,45 90,5 100,20 L100,100 L0,100 Z" />
-
                                         <!-- Orange Area -->
                                         <path class="area-orange"
                                             d="M0,70 C10,65 15,60 25,70 C35,80 40,50 50,55 C60,60 65,70 75,75 C85,80 90,60 100,55 L100,100 L0,100 Z" />
-
                                         <!-- Purple Line -->
                                         <path class="line-purple"
                                             d="M0,40 C10,30 15,45 25,30 C35,15 40,25 50,40 C60,55 65,25 75,35 C85,45 90,5 100,20" />
-
                                         <!-- Orange Line -->
                                         <path class="line-orange"
                                             d="M0,70 C10,65 15,60 25,70 C35,80 40,50 50,55 C60,60 65,70 75,75 C85,80 90,60 100,55" />
@@ -299,11 +270,13 @@
                 <!-- Right Panel -->
                 <div class="right-panel">
                     <!-- Saving Plans -->
+
                     <div class="saving-plans">
                         <div class="section-header">
                             <h3 class="section-title">Saving Plan</h3>
                             <a href="#" class="see-all">See All</a>
                         </div>
+                        <div class="div-with-line"> </div>
 
                         <!-- Bali Plan -->
                         <div class="plan-item">
@@ -312,47 +285,61 @@
                                 <div class="plan-target">Target: August 25 2022</div>
                             </div>
                             <div class="plan-amount">
-                                <div class="current-amount">$1950.21</div>
-                                <div class="target-amount">/ $4,000</div>
+                                <div class="row justify-between">
+                                    <div class="row">
+                                        <div class="current-amount">$1950.21</div>
+                                        <div class="plan-target justify-between">/ $4,000</div>
+                                    </div>
+                                    <div class="percentage percentage-blue">48%</div>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill progress-blue"></div>
+                                </div>
                             </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill progress-blue"></div>
-                            </div>
-                            <div class="percentage percentage-blue">48%</div>
-                        </div>
 
-                        <!-- Gadget Plan -->
-                        <div class="plan-item">
-                            <div class="plan-header">
-                                <div class="plan-title">New Gadget</div>
-                                <div class="plan-target">Target: August 25 2022</div>
+                            <!-- Gadget Plan -->
+                            <div class="plan-item">
+                                <div class="plan-header">
+                                    <div class="plan-title">New Gadget</div>
+                                    <div class="plan-target">Target: August 25 2022</div>
+                                </div>
+                                <div class="plan-amount">
+                                    <div class="row justify-between">
+                                        <div class="row">
+                                            <div class="current-amount">$790.21</div>
+                                            <div class="plan-target justify-between">/ $1,000</div>
+                                        </div>
+                                        <div class="percentage percentage-orange">79%</div>
+                                    </div>
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill progress-orange"></div>
+                                </div>
                             </div>
-                            <div class="plan-amount">
-                                <div class="current-amount">$790.21</div>
-                                <div class="target-amount">/ $1,000</div>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill progress-orange"></div>
-                            </div>
-                            <div class="percentage percentage-orange">79%</div>
-                        </div>
+                            <!-- Charity Plan -->
 
-                        <!-- Charity Plan -->
-                        <div class="plan-item">
-                            <div class="plan-header">
-                                <div class="plan-title">Charity</div>
-                                <div class="plan-target">Target: August 25 2022</div>
+                            <div class="plan-item">
+                                <div class="plan-header">
+                                    <div class="plan-title">Charity</div>
+                                    <div class="plan-target">Target: August 25 2022</div>
+                                </div>
+                                <div class="plan-amount">
+                                    <div class="row justify-between">
+                                        <div class="row">
+                                            <span class="current-amount">$32.111</span>
+                                            <span class="plan-target justify-between">/ $100</span>
+                                        </div>
+                                        <div class="percentage percentage-green">32%</div>
+                                    </div>
+
+                                </div>
+                                <div class="progress-bar">
+                                    <div class="progress-fill progress-green"></div>
+                                </div>
                             </div>
-                            <div class="plan-amount">
-                                <div class="current-amount">$32.111</div>
-                                <div class="target-amount">/ $100</div>
-                            </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill progress-green"></div>
-                            </div>
-                            <div class="percentage percentage-green">32%</div>
                         </div>
                     </div>
+
 
                     <!-- Recent Transactions -->
                     <div class="transactions">
@@ -360,6 +347,8 @@
                             <h3 class="section-title">Recent Transaction</h3>
                             <a href="#" class="see-all">See All</a>
                         </div>
+                        <div class="div-with-line"> </div>
+
 
                         <!-- Figma -->
                         <div class="transaction-item">
